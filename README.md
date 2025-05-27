@@ -1,18 +1,16 @@
 
 # 🎙️ 실시간 음성 인식 웹 애플리케이션 (Whisper + Flask + React)
 
-Google Colab + Whisper 모델 기반의 STT(음성 → 텍스트) 실시간 웹 앱
+
 
 ---
 
 ## 🚀 프로젝트 개요
 
 이 프로젝트는 **브라우저에서 음성을 녹음하고**, **Flask 서버로 전송하여**, **Whisper AI 모델을 통해 실시간으로 텍스트로 변환**하는 웹 기반 음성 인식 서비스입니다.
-
-- 실시간 WebSocket 통신
-- OpenAI Whisper 모델 활용
-- Google Colab + ngrok을 통한 서버 실행
-- React 기반 프론트엔드
+- **프로젝트명:** Google Colab + Whisper 모델 기반의 STT(음성 → 텍스트) 실시간 웹 앱
+- **주요 목표:** 브라우저에서 실시간으로 음성을 텍스트로 변환하여 화면에 출력
+- **사용 환경:** Google Colab (Python 기반), 모바일 웹 접속 가능
 
 ---
 
