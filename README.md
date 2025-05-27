@@ -1,7 +1,7 @@
 
-# 🎙️ 실시간 음성 인식 웹 애플리케이션 (Whisper + Flask + React)
+# 실시간 음성 인식 웹 애플리케이션 (Whisper + Flask + React)
 
-## 🚀 프로젝트 개요
+## 프로젝트 개요
 
 이 프로젝트는 **브라우저에서 음성을 녹음하고**, **Flask 서버로 전송하여**, **Whisper AI 모델을 통해 실시간으로 텍스트로 변환**하는 웹 기반 음성 인식 서비스입니다.
 - **프로젝트명:** Google Colab + Whisper 모델 기반의 STT(음성 → 텍스트) 실시간 웹 앱
@@ -10,17 +10,17 @@
 
 ---
 
-## 🧠 주요 기능
+## 주요 기능
 
-- ✅ 실시간 음성 → 텍스트 변환
-- ✅ WebSocket을 통한 양방향 통신
-- ✅ Whisper 모델을 Colab 환경에서 직접 구동
-- ✅ ngrok을 통한 외부 공개 및 접근
-- ✅ 자동 WebSocket URL 감지 (브라우저 주소 기반)
+- 실시간 음성 → 텍스트 변환
+- WebSocket을 통한 양방향 통신
+- Whisper 모델을 Colab 환경에서 직접 구동
+- ngrok을 통한 외부 공개 및 접근
+- 자동 WebSocket URL 감지 (브라우저 주소 기반)
 
 ---
 
-## 🏗️ 기술 스택
+## 기술 스택
 
 | 영역        | 기술                                   |
 |-------------|----------------------------------------|
@@ -32,7 +32,7 @@
 
 ---
 
-## 📐 시스템 아키텍처
+## 시스템 아키텍처
 
 ```plaintext
 [Browser (React)] ⇄ WebSocket ⇄ [Flask 서버 (Colab)] → Whisper 모델
@@ -42,16 +42,7 @@
 
 ---
 
-## 📹 사용 방법
-
-1. 브라우저 접속 → "Start Recording" 클릭  
-2. 음성 입력 후 "Stop Recording"  
-3. Whisper 모델이 음성을 텍스트로 변환  
-4. 변환된 텍스트가 화면에 실시간 표시
-
----
-
-## 🧩 해결한 주요 이슈
+## 해결한 주요 이슈
 
 | 문제 | 해결 방법 |
 |------|------------|
@@ -61,7 +52,7 @@
 
 ---
 
-## 🧠 학습한 기술 및 인사이트
+## 학습한 기술 및 인사이트
 
 - WebSocket 기반 실시간 처리 구조
 - Whisper 모델 활용 및 입력 전처리
@@ -71,7 +62,7 @@
 
 ---
 
-## 🔧 향후 개선 사항
+## 향후 개선 사항
 
 - Whisper medium/large 모델로 정확도 향상
 - WebSocket 자동 재접속 기능 추가
@@ -80,11 +71,8 @@
 
 ---
 
-```
+## 📌 포트폴리오 링크
+
+👉 [GitHub Repository Link](https://github.com/your-username/yolov8-object-detection-webapp)
 
 ---
-
-## 🙋‍♂️ Contact
-
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your.email@example.com
