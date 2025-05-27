@@ -1,3 +1,4 @@
+# 포트폴리오
 
 # 실시간 음성 인식 웹 애플리케이션 (Whisper + Flask + React)
 
@@ -33,12 +34,7 @@
 ---
 
 ## 시스템 아키텍처
-
-```plaintext
-[Browser (React)] ⇄ WebSocket ⇄ [Flask 서버 (Colab)] → Whisper 모델
-            │                            ↑
-     사용자 음성 녹음             ngrok로 외부에 공개
-```
+![architecture](architecture.png)
 
 ---
 
