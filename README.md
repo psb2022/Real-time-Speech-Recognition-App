@@ -27,8 +27,6 @@
 
 ## 🏗️ 기술 스택
 
-| 구분 | 기술 |
-|------|------|
 | 프론트엔드 | React, Material-UI, WebSocket |
 | 백엔드 | Flask, flask-sock, whisper, pyngrok |
 | AI 모델 | OpenAI Whisper (base) |
@@ -44,23 +42,6 @@
             │                            ↑
      사용자 음성 녹음             ngrok로 외부에 공개
 ```
-
----
-
-## 📦 설치 및 실행 방법
-
-1. Google Colab에서 프로젝트 노트북 열기
-2. 필요한 패키지 설치
-```bash
-!pip install flask flask-cors flask-sock openai-whisper pyngrok soundfile
-```
-
-3. 서버 실행 (`app.py`, `run_server.py` 포함)
-```bash
-!python run_server.py
-```
-
-4. 표시되는 ngrok URL 복사 후 웹 브라우저에서 접속
 
 ---
 
@@ -102,33 +83,7 @@
 
 ---
 
-## 📎 데모 링크 (선택)
-
-> 🔗 [ngrok 실행 링크]  
-> 💾 [프로젝트 Colab 노트북 링크]  
-> 🔍 [architecture_diagram.png]
-
----
-
-## 📁 프로젝트 파일 구성
-
 ```
-├── app.py                 # Flask 서버
-├── run_server.py          # Colab에서 ngrok 실행
-├── www/
-│   ├── index.html         # 메인 페이지
-│   ├── app.js             # React App
-│   └── styles.css         # 스타일시트
-├── README.md              # 포트폴리오
-└── images/
-    └── architecture_diagram.png
-```
-
----
-
-## 📝 License
-
-MIT License
 
 ---
 
