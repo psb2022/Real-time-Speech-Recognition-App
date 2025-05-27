@@ -36,12 +36,6 @@ Google Colab + Whisper 모델 기반의 STT(음성 → 텍스트) 실시간 웹 
 | 개발 환경   | Google Colab (Jupyter Notebook 기반)   |
 | 배포 접근   | ngrok (https 기반 터널링)              |
 
-| 프론트엔드 | React, Material-UI, WebSocket |
-| 백엔드 | Flask, flask-sock, whisper, pyngrok |
-| AI 모델 | OpenAI Whisper (base) |
-| 실행환경 | Google Colab + Python |
-| 배포 접근 | ngrok (https 기반 터널링) |
-
 ---
 
 ## 📐 시스템 아키텍처
