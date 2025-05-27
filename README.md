@@ -73,6 +73,6 @@
 
 ## 포트폴리오 링크
 
-[[GitHub Repository Link](https://github.com/your-username/yolov8-object-detection-webapp)](https://github.com/psb2022/Real-time-Speech-Recognition-App)
+(https://github.com/psb2022/Real-time-Speech-Recognition-App)
 
 ---
