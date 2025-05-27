@@ -1,6 +1,7 @@
+
 # 🎙️ 실시간 음성 인식 웹 애플리케이션 (Whisper + Flask + React)
 
-> Google Colab + Whisper 모델 기반의 STT(음성 → 텍스트) 실시간 웹 앱
+Google Colab + Whisper 모델 기반의 STT(음성 → 텍스트) 실시간 웹 앱
 
 ---
 
@@ -26,6 +27,14 @@
 ---
 
 ## 🏗️ 기술 스택
+
+| 영역        | 기술                                   |
+|-------------|----------------------------------------|
+| Frontend    | React, Material-UI, WebSocket          |
+| Backend     | Flask, flask-sock, whisper, pyngrok    |
+| 모델        | OpenAI Whisper (base)                  |
+| 개발 환경   | Google Colab (Jupyter Notebook 기반)   |
+| 배포 접근   | ngrok (https 기반 터널링)              |
 
 | 프론트엔드 | React, Material-UI, WebSocket |
 | 백엔드 | Flask, flask-sock, whisper, pyngrok |
